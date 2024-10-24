@@ -1,5 +1,5 @@
 import './App.css';
-import Aline from '/src/assets/logo.png'
+import Aline from './assets/logo.png'
 
 function App() {
   return (
@@ -11,7 +11,28 @@ function App() {
         alt='logo-Aline'
         />
       </div>
-    </div>
+
+      <div class="product-main">
+
+        <h2 class="title">New Products</h2>
+
+        <div class="product-grid">
+
+          <div class="showcase">
+
+            <div class="showcase-banner">
+
+            <img
+                  className='logo-image'
+                  src={Aline}
+                  alt='logo-Aline'
+                  />
+      
+       </div>
+       </div>
+       </div>
+       </div>
+       </div>
   );
 }
 

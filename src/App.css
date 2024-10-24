@@ -1,0 +1,38 @@
+/*Estilos a APP*/
+
+/*Los navegdadores vienen predeeterminadas lo personalizamos*/
+*{
+    margin:0;
+    padding: 0;
+  }
+  
+  /*1*/
+  html,
+  body {
+    font-size: 18px; /* Tamaño del texto */
+    background: linear-gradient(to bottom, #00c9ff, #0057e7, #ffffff); 
+  }
+  
+  
+  h1{
+    max-width: 940px;/*ancho maximo de este titulo*/
+    font-size: 2.5em;/*tamaño de la letra em un factor relativo en contenedor*/
+    font-family: Lato,sans-serif;
+    font-weight: 700;/*gruesa la letra*/
+    line-height: 1.1;/*seperacion*/
+    margin: 40px 0;
+  }
+  
+  /*Tamaño a mi APP*/
+  .App{
+    min-height: 100vh;/*se adapte a la altura del navegador q minimo tomara el 100%verticalmente*/
+    display: flex;/*definir como se van a ubicar los elementos dentro del contenedor*/
+    flex-wrap:wrap;/*SI UN ELEMENTO TOMA EL ANCHO DE PUES SE UBICA debajo de elO SIGUIENTE*/
+    align-items: center;/*se alinean en centro !!*/
+    justify-content: center;/*se centra horizantal !! */
+    text-align: center;
+  }
+  
+  .container { padding: 0 15px; }
+
+  
